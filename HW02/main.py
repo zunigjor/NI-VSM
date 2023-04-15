@@ -1,3 +1,9 @@
+# NI-VSM Domaci ukol 02
+# LS 2022/23
+# Clenove
+# Kristýna Janovská - janovkri (reprezentant)
+# Jakub Rigoci - rigocjak
+# Jorge Zuňiga - zunigjor
 import math
 from collections import Counter
 from typing import Dict
