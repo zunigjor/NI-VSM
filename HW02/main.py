@@ -167,6 +167,21 @@ def char_count(text: str) -> Dict[str, int]:
 
 
 def char_dependency_test(file_1_name: str, file_1_str: str, file_2_name: str, file_2_str: str) -> None:
+    """
+    H0: rozdeleni pismen je nezavisle na textu
+    HA: rozdeleni pismen je zavisle na textu
+
+    Uloha resena analogicky k uloze 3, byly pouzity cetnosti jednotlivych pismen v textu (krome mezery).
+    Z kapitoly 10.7:
+    Diskretni nahodna velicina X s k hodnotami 1...k s pravdepodobnostmi p1...pk
+    rozdeleni X: p = (p1...pk)^T
+    -> nahodny vyber X1...Xn o velikosti n z rozdeleni p -> vysledky zaznamenany pomoci CETNOSTI
+    -> Nahodne veliciny N1...Nk: Ni=|{j |Xj = i}
+    -> Multinomicke rozdeleni M(n, p): Sdruzene diskretni rozdeleni nahodneho vektoru N = (N1...Nk)
+    -> PEARSONOVA STATISTIKA -> Chi^2
+
+    Testujeme shodnost diskretnich rozdeleni f1, f2
+    """
     H0 = "H0: Rozdělení písmen nezávisí na tom, o který jde text."
     HA = "HA: Rozdělení písmen závisí na tom, o který jde text."
     print(H0)
