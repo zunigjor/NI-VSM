@@ -6,12 +6,12 @@
 | Jakub Rigoci          | rigocjak@fit.cvut.cz |
 | Jorge Zuňiga          | zunigjor@fit.cvut.cz |
 
-| Úkol | Body |
-|------|------|
-| 1    | 5/6  |
-| 2    | 4/6  |
-| 3    | 0/6  |
-| 4    | 0/6  |
+| Úkol | Body   |
+|------|--------|
+| 1    | 5/6    |
+| 2    | 4/6    |
+| 3    | 5.5/6  |
+| 4    | 0/6    |
 
 ## Domácí úkol 1
 
